@@ -46,7 +46,7 @@
     "directory": "packages/react"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "16.x"
   },
   "dependencies": {
     "react": "^18.0.0",
