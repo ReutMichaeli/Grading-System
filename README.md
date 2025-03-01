@@ -1,37 +1,35 @@
-# `react`
+Grade Management System
 
-React is a JavaScript library for creating user interfaces.
+Overview
 
-The `react` package contains only the functionality necessary to define React components. It is typically used together with a React renderer like `react-dom` for the web, or `react-native` for the native environments.
+The Grade Management System is a web-based application designed to efficiently manage student records, courses, and grades. Developed by Merily and Reut, this system provides an intuitive and structured approach to handling academic performance tracking.
 
-**Note:** by default, React will be in development mode. The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages. Don't forget to use the [production build](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) when deploying your application.
+Features
 
-## Usage
+✅ Manage student records and details: Easily add, update, and view student information.
 
-```js
-import { useState } from 'react';
-import { createRoot } from 'react-dom/client';
+✅ Browse and update courses: Keep track of available courses and their details.
 
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <>
-      <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>
-        Increment
-      </button>
-    </>
-  );
-}
+✅ Assign and track student grades: Record grades for students and ensure accurate academic tracking.
 
-const root = createRoot(document.getElementById('root'));
-root.render(<Counter />);
-```
+✅ View student progress and analytics: Analyze student performance with insightful data visualization.
 
-## Documentation
+Navigation
 
-See https://react.dev/
+The system includes the following key functionalities:
 
-## API
+👤 Student List: View and manage student records.
 
-See https://react.dev/reference/react
+📋 Course List: Browse available courses.
+
+➕ Add Grade: Assign grades to students.
+
+📊 View All Grades: Monitor overall student performance.
+
+Technologies Used
+
+Frontend: React.js (UI framework)
+
+Backend: Node.js with Express
+
+Hosting: Render.com (for server and static frontend deployment)
